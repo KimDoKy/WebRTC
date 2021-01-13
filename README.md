@@ -2,7 +2,7 @@
 
 > https://www.youtube.com/watch?v=DvlyzDZDEq4&t=145s
 
-'''
+```
 npm init -y
 
 # express: 서버
@@ -17,14 +17,21 @@ npm i uuid
 
 # 자동 새로고침
 npm i --save-dev nodemon
-'''
+```
 
 ### package.json
+
+```json
 "scripts": {
     "devStart": "nodemon server.js"
     ...
+```
+
 ### cli
+
+```
 npm run devStart
+```
 
 - write server.js
 - write views/room.ejs
@@ -32,11 +39,14 @@ npm run devStart
 
 ### install peer js
 
-'''
+```
 npm i -g peer
+```
 
 # run peerjs
+
+```
 peerjs --port 3001
+```
 
 peer 서버: 사용자에 대한 모든 WebRTC 정보를 취하고, 사용하기 쉬운 ID로 변환시킴
-'''
